@@ -1,0 +1,45 @@
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-form {
+  width: 400px;
+  min-height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(140, 140, 140);
+  border-radius: 12px;
+  padding: 10px 10px;
+  background-color: rgb(255, 250, 252);
+}
+
+.login-form input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 12px 0;
+  border: 0;
+  outline: none;
+  font-size: medium;
+}
+
+.login-form input[type="submit"] {
+  background-color: rgb(183, 74, 183);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.clickhere {
+  color: purple;
+  display: flex;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.navlink {
+  text-decoration: none;
+}
