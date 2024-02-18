@@ -21,7 +21,7 @@ server.post("/register", async (req, res) => {
 });
 
 //read
-server.post("/", async (req, res) => {
+server.post("/login", async (req, res) => {
   try {
     const { username, password } = req.body;
     if (!username || !password) {
